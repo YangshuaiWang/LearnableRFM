@@ -25,5 +25,3 @@ model = LDDRFM(M=2, K_per=32, outer_iters=10, seed=0)
 model.fit(x[:, None], y)
 prediction = model.predict(np.array([[-0.75], [0.25]]))
 ```
-
-This repository illustrates the one-dimensional regression models. The PDE benchmarks and experiment scripts are outside its scope.
